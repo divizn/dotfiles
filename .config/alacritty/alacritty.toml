@@ -2,6 +2,7 @@
 opacity = 0.75
 blur = true
 decorations = "Transparent"
+dimensions = { columns = 100, lines = 25 }
 
 
 [colors.primary]
@@ -14,4 +15,4 @@ background = "#000011"
 
 builtin_box_drawing = true
 
-size = 8.5
+size = 8
