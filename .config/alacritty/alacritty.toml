@@ -10,8 +10,10 @@ background = "#000131"
 
 
 [font]
-# bold = { family = "Bitstrom Wera Mono", style = "Bold" }
-# normal = { family = "Bitstrom Wera Mono", style = "Regular" }
+bold = { family = "CodeNewRoman Nerd Font", style = "Bold" }
+normal = { family = "CodeNewRoman Nerd Font", style = "Regular" }
+italic = { family = "CodeNewRoman Nerd Font", style = "Italic" }
+bold_italic = { family = "CodeNewRoman Nerd Font", style = "Bold Italic" }
 
 builtin_box_drawing = true
 
