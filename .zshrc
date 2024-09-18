@@ -129,7 +129,7 @@ alias tat='tmux a -t'
 # misc
 alias venup='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 alias discup='cd ~/Downloads && wget -O disc https://discord.com/api/download/stable\?platform\=linux\&format\=deb && sudo dpkg -i disc && rm -f disc'
-
+alias ls='ls -a'
 
 # Environment variables
 ZSH_TMUX_AUTOSTART=true
