@@ -117,6 +117,11 @@ alias clippy='cargo clippy -- -W clippy::pedantic'
 # go
 alias gobpd='go-blueprint create --framework standard-library --driver postgres --git commit' # my default blueprint
 
+
+# node
+alias pn='pnpm'
+
+
 # tmux (using plugin)
 # alias tksv='tmux kill-server'
 # alias tks='tmux kill-ses'
