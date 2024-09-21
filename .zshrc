@@ -121,6 +121,9 @@ alias gobpd='go-blueprint create --framework standard-library --driver postgres 
 # node
 alias pn='pnpm'
 
+# python
+alias python='python3'
+alias pip='pip3'
 
 # tmux (using plugin)
 # alias tksv='tmux kill-server'
