@@ -122,8 +122,8 @@ alias gobpd='go-blueprint create --framework standard-library --driver postgres 
 alias pn='pnpm'
 
 # python
-alias python='python3'
-alias pip='pip3'
+# alias python='python3'
+# alias pip='pip3'
 
 # tmux (using plugin)
 # alias tksv='tmux kill-server'
@@ -151,4 +151,4 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # Path
-export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin
+export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin:$HOME/.local/bin:$HOME/zig
