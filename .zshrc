@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias cdp='cd ~/Programming'
+alias cdot='cd ~/dotfiles'
 alias alaconfig='vim ~/dotfiles/.config/alacritty/alacritty.toml'
 
 # git
@@ -115,7 +116,7 @@ alias clippy='cargo clippy -- -W clippy::pedantic'
 
 
 # go
-alias gobpd='go-blueprint create --framework standard-library --driver postgres --git commit' # my default blueprint
+alias gobpd='go-blueprint create --driver postgres --git commit' # my default blueprint
 
 
 # node
