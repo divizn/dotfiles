@@ -10,10 +10,10 @@ background = "#000131"
 
 
 [font]
-bold = { family = "CodeNewRoman Nerd Font", style = "Bold" }
-normal = { family = "CodeNewRoman Nerd Font", style = "Regular" }
-italic = { family = "CodeNewRoman Nerd Font", style = "Italic" }
-bold_italic = { family = "CodeNewRoman Nerd Font", style = "Bold Italic" }
+bold = { family = "CodeNewRoman Nerd Font Mono", style = "Bold" }
+normal = { family = "CodeNewRoman Nerd Font Mono", style = "Regular" }
+italic = { family = "CodeNewRoman Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "CodeNewRoman Nerd Font Mono", style = "Bold Italic" }
 
 builtin_box_drawing = true
 
