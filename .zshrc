@@ -102,6 +102,8 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias cdp='cd ~/Programming'
 alias cdot='cd ~/dotfiles'
 alias alaconfig='vim ~/dotfiles/.config/alacritty/alacritty.toml'
+alias kitconfig='vim ~/dotfiles/.config/kitty/kitty.conf'
+
 
 # git
 alias gpu='git push'
