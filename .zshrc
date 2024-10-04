@@ -139,7 +139,7 @@ alias tat='tmux a -t'
 
 # misc
 alias venup='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
-alias discup='cd ~/Downloads && wget -O disc https://discord.com/api/download/stable\?platform\=linux\&format\=deb && sudo dpkg -i disc && rm -f disc'
+alias discup='cd /tmp && wget -O disc https://discord.com/api/download/stable\?platform\=linux\&format\=deb && sudo dpkg -i disc'
 alias ls='ls -a --color'
 alias uz='unzip'
 
