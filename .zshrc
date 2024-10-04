@@ -138,8 +138,8 @@ alias tn='tmux new -s'
 
 
 # misc
-alias venup='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
-alias discup='cd /tmp && wget -O disc https://discord.com/api/download/stable\?platform\=linux\&format\=deb && sudo dpkg -i disc'
+# alias venup='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
+# alias discup='cd /tmp && wget -O disc https://discord.com/api/download/stable\?platform\=linux\&format\=deb && sudo dpkg -i disc'
 alias ls='ls -a --color'
 alias uz='unzip'
 
@@ -154,4 +154,4 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # Path
-export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin:$HOME/.local/bin:$HOME/zig
+export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin:$HOME/.local/bin:$HOME/zig:$HOME/scripts
