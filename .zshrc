@@ -134,7 +134,7 @@ alias pn='pnpm'
 alias tx='tmux'
 alias ta='tmux a'
 alias tat='tmux a -t'
-# alias tn='tmux new -s'
+alias tn='tmux new -s'
 
 
 # misc
