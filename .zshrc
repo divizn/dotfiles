@@ -121,8 +121,9 @@ alias clippy='cargo clippy -- -W clippy::pedantic'
 alias gobpd='go-blueprint create --driver postgres --git commit' # my default blueprint
 
 
-# node
+# node/web
 alias pn='pnpm'
+alias shadadd='pnpm dlx shadcn@latest add' # using pnpm
 
 # python
 # alias python='python3'
@@ -155,3 +156,11 @@ export NVM_DIR="$HOME/.nvm"
 
 # Path
 export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin:$HOME/.local/bin:$HOME/zig:$HOME/scripts
+
+# pnpm
+export PNPM_HOME="/home/phon/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
