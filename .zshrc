@@ -123,7 +123,8 @@ alias gobpd='go-blueprint create --driver postgres --git commit' # my default bl
 
 # node/web
 alias pn='pnpm'
-alias shadadd='pnpm dlx shadcn@latest add' # using pnpm
+alias shadadd='pnpm dlx shadcn-svelte@latest add'
+alias shadaddn='pnpm dlx shadcn@latest add' # using pnpm
 
 # python
 # alias python='python3'
