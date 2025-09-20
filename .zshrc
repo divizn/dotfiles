@@ -156,7 +156,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # Path
-export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin:$HOME/.local/bin:$HOME/zig:$HOME/scripts
+export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin:$HOME/.local/bin:$HOME/zig:$HOME/scripts:/home/phon/.flutter/flutter/flutter
 
 # pnpm
 export PNPM_HOME="/home/phon/.local/share/pnpm"
