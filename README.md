@@ -23,7 +23,7 @@ pacman -S stow
 First, clone repository to `$HOME` directory using git
 
 ```bash
-$ git clone github.com/divizn/dotfiles.git
+$ git clone https://github.com/divizn/dotfiles.git
 $ cd dotfiles
 ```
 
