@@ -181,4 +181,3 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source ~/spack/share/spack/setup-env.sh
