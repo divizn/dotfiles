@@ -14,5 +14,4 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
-^/CLAUDE\.md
 settings\.local\.json
